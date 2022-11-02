@@ -4,8 +4,8 @@ var Membership;
     Membership[Membership["Standard"] = 1] = "Standard";
     Membership[Membership["Premium"] = 2] = "Premium";
 })(Membership || (Membership = {}));
-var membership = Membership.Standard;
-var membershipReverse = Membership[2];
+const membership = Membership.Standard;
+const membershipReverse = Membership[2];
 console.log(membership);
 console.log(membershipReverse);
 var SocialMedia;
@@ -13,6 +13,6 @@ var SocialMedia;
     SocialMedia["FACEBOOK"] = "FACEBOOK";
     SocialMedia["INSTAGRAM"] = "INSTAGRAM";
 })(SocialMedia || (SocialMedia = {}));
-var social = SocialMedia.INSTAGRAM;
+const social = SocialMedia.INSTAGRAM;
 console.log(social);
 //# sourceMappingURL=enum.js.map

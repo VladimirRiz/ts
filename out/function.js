@@ -1,7 +1,7 @@
 function add(a, b) {
     return a + b;
 }
-var toUppercase = function (str) { return str.trim().toUpperCase(); };
+const toUppercase = (str) => str.trim().toUpperCase();
 function position(a, b) {
     if (!a && !b) {
         return { x: undefined, y: undefined };
