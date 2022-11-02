@@ -15,4 +15,14 @@ function sayMyName(name) {
     console.log(name);
 }
 sayMyName('Rick');
+//Never
+function throwError(message) {
+    throw new Error(message);
+}
+function infinite() {
+    while (true) { }
+}
+var login = 'admin';
+var id = '12312';
+var id2 = 1234;
 //# sourceMappingURL=types.js.map
